@@ -16,7 +16,9 @@ Notification System: Provides real-time feedback to users on actions like adding
 Follow these steps to get a copy of the project up and running on your local machine.
 
 Prerequisites
+
 Node.js: Ensure you have Node.js installed. You can download it from nodejs.org.
+
 npm or yarn: This project uses npm for package management, but you can also use yarn if preferred.
 
 **Steps**
