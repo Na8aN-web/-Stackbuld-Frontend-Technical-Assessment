@@ -48,14 +48,13 @@ yarn dev
 
 The application will be accessible at http://localhost:3000.
 
-Project Structure
+### Project Structure
 
 /src: Main source code directory.
 /app: Contains page components and routes.
 /page.tsx: Main listing page where products are displayed.
 /products/add/page.tsx: Page for adding a new product.
 /products/edit/[id]/page.tsx: Page for editing an existing product.
-
 /components: Reusable components.
 Notification.tsx: Component for displaying notifications.
 ProductCard.tsx: Displays individual product details.
@@ -67,12 +66,11 @@ localStorageUtils.ts: Functions for interacting with local storage (CRUD operati
 /data: Contains dummy data for initial testing (optional).
 
 
-Key Components
+### Key Components
 ProductCard: Displays a single product's information including name, price, and image.
 ProductFilter: Provides filtering options for products based on category and price.
 Notification: Shows success or error messages to users.
-State Management
-The application uses React hooks (useState, useEffect) to manage state and side effects. State is managed locally within components, and changes are reflected in the UI.
+State Management: The application uses React hooks (useState, useEffect) to manage state and side effects. State is managed locally within components, and changes are reflected in the UI.
 
 Local Storage Usage
 Products: Stored in local storage under the key "products".
