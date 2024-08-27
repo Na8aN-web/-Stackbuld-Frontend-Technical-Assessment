@@ -1,6 +1,7 @@
-import { NextResponse } from "next/server";
 
-export async function GET() {
+import { NextResponse } from 'next/server';
+
+export async function GET(request: Request) {
   const sitemap = `
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
@@ -11,9 +12,10 @@ export async function GET() {
     <!-- Add more URLs as needed -->
   </urlset>
   `;
-  return NextResponse.json(sitemap, {
+
+  return new NextResponse(sitemap, {
     headers: {
-      "Content-Type": "application/xml",
+      'Content-Type': 'application/xml',
     },
   });
 }
