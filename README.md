@@ -3,9 +3,13 @@ Welcome to the E-commerce Product Listing Platform! This is a modern, scalable, 
 
 ### Features
 Add, Edit, and Delete Products: Easily manage product listings.
+
 Product Filtering: Filter products by category and price range.
+
 Local Storage Integration: Store and manage product data locally.
+
 Responsive Design: Works seamlessly on desktop and mobile devices.
+
 Notification System: Provides real-time feedback to users on actions like adding or deleting products.
 
 ### Installation
