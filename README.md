@@ -23,7 +23,7 @@ git clone https://github.com/yourusername/ecommerce-product-listing.git
 
 cd ecommerce-product-listing
 
-Install dependencies:
+**Install dependencies:**
 
 npm install
 
@@ -31,7 +31,7 @@ Or, if you prefer using yarn:
 
 yarn install
 
-Getting Started
+**Getting Started**
 
 To start the development server, run:
 
